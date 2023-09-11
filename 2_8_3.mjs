@@ -1,3 +1,12 @@
+import { describe, it } from 'node:test'
+import assert from 'node:assert'
+
+describe('Преобразование типов', () => {
+  it('"" + 1 + 0', () => {
+    assert.strictEqual("" + 1 + 0, '10')
+  })
+})
+
 // Преобразование типов
 
 function main() {
