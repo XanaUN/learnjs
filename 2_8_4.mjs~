@@ -1,0 +1,21 @@
+import { describe, it } from 'node:test'
+import assert from 'node:assert'
+
+
+	function main(str1,str2) {
+	a = Number(str1)
+	b = Number(str2)
+		return (a + b)
+		}
+	let a = '1'
+	let b = '2'
+	main(a,b)
+	console.log(a + b)
+
+describe('Исправление сложения', () => {
+	it(main(a,b), () => {
+		assert.strictEqual(main(a,b), 3)
+	})
+})
+
+
