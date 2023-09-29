@@ -11,8 +11,6 @@ function main() {
 	}
 	return summ
 }
-let summ = main()
-console.log('asdfas', summ)
 
 describe('Выведите четные числа', () => {
 	it('main()', () => {
